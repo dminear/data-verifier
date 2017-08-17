@@ -48,6 +48,7 @@ if ($md5 eq "") { # first time, need to store
     }
     write_file($0, @lines);
     print "File written, run again for test\n";
+    exit;
 }
 
 is( $digest, $md5, "Checksums match");

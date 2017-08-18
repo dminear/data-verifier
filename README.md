@@ -2,7 +2,8 @@
 Program to create data and verify integrity after transfer. You run it and give the number of bytes to checksum:
     
     verify.pl 1000000
-to create 1 million bytes and checksum that. Then run it again and it will store the checksum in the file.
+    
+to create 1 million bytes and checksum that. The checksum will be stored in the file.
 
 Next, transfer the file through the channel and then run it on the other side. If all transferred OK, then the test will pass.
 

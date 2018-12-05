@@ -8,6 +8,9 @@ to create 1 million bytes and checksum that. The checksum will be stored in the 
 Next, transfer the file through the channel and then run it on the other side. If all transferred OK, then the test will pass.
 
 ## Module Dependencies:
+Test::More
+FileHandle
+Digest::MD5
 File::Slurp
 
 ## Issues
